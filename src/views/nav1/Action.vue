@@ -168,7 +168,6 @@
             },
 
             tableRowClick(row, event, column) {
-                console.log(this.editor.getContent());
                 let title = row.iterationTitle;
                 let $this = this;
                 this.iterationData.forEach((r, index) => {
